@@ -1,0 +1,60 @@
+//
+//  PrefixHeader.pch
+//  Steezz
+//
+//  Created by Apple on 05/05/17.
+//  Copyright © 2017 Prince. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "signInViewController.h"
+#import "signupViewController.h"
+#import "forgotPasswordViewController.h"
+
+#import "LoginScreenViewController.h"
+
+
+#import "LenderTabBarViewController.h"
+#import "lenderHomePageViewController.h"
+#import "lenderSaverViewController.h"
+#import "lenderConditionlReportViewController.h"
+#import "LenderProductDetailViewController.h"
+#import "lenderStartReportViewController.h"
+#import "LenderSettingsViewController.h"
+#import "LenderProfileViewController.h"
+#import "lenderSupportViewController.h"
+#import "LenderChangePasswordViewController.h"
+#import "LenderFeedBackForumViewController.h"
+#import "LenderReportDetailViewController.h"
+#import "LenderBookingListViewController.h"
+
+
+
+#import "LendeeTabBarViewController.h"
+#import "LENDEEProductsViewController.h"
+#import "LendeeProductDetailViewController.h"
+#import "LendeeAddProductViewController.h"
+#import "LendeeSettingsViewController.h"
+#import "LendeeDashBoardViewController.h"
+
+
+#import "Constants.h"
+#import "Utility.h"
+#import "MVPlaceSearchTextField.h"
+
+#import "ApiMaster.h"
+#import "UIAlertView+Blocks.h"
+
+
+#import "Base64.h"
+#import "UIImageView+WebCache.h"
+
+#import "SRAlertView.h"
+#import "FXBlurView.h"
+#endif /* PrefixHeader_pch */
